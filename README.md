@@ -1,16 +1,48 @@
-# React + Vite
+<h1 align="center">IT Knowledge Hub 📚</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img width="1919" height="902" alt="Image" src="https://github.com/user-attachments/assets/713d83aa-2939-421f-aa87-ff66cccceea5" />
+</p>
 
-Currently, two official plugins are available:
+## 📌 About the project
+An interactive web application for searching IT literature using a real API (ITBookStore). The project allows users to track new releases, search for books by keywords, and filter them by price (paid/free). 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The goal of the project is to practice working with API requests, data filtering, and creating a responsive interface in React.
 
-## React Compiler
+## 🛠 Technologies
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Axios](https://img.shields.io/badge/axios-purple?style=for-the-badge&logo=axios&logoColor=white)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📁 Project structure
+* `src/pages/Search` - book search functionality via API requests and filtering logic.
+* `src/pages/New` - page with the latest IT literature releases.
+* `src/pages/About` - information about the project.
+* `src/pages/Accordion` - interactive FAQ component for answering user questions.
+* `src/pages/Loader` - custom loading indicator during requests.
+* `App.jsx` - root component with a configured Router and global structure.
 
-## Expanding the ESLint configuration
+## 🌟 Key features
+* **Search:** Integration with the ITBookStore API to get up-to-date book data.
+* **Filtering:** Ability to separate books into paid and free.
+* **Interface:** Adaptive card grid that resizes to fit any screen size.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation and launch
+
+**To launch the project locally:**
+
+1. Clone the repository:
+```
+git clone https://github.com/roody123/nutrition-analysis.git
+```
+
+2. Install dependencies:
+```
+npm install
+```
+
+3. Start the development server:
+```
+npm run dev
+```
